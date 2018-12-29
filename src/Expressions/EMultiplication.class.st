@@ -1,7 +1,7 @@
 Class {
 	#name : #EMultiplication,
 	#superclass : #EBinaryExpression,
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #examples }

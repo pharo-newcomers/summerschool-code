@@ -1,7 +1,7 @@
 Class {
 	#name : #EExpression,
 	#superclass : #Object,
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #evaluation }

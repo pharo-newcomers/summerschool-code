@@ -1,7 +1,7 @@
 Class {
 	#name : #EDivisionTest,
 	#superclass : #TestCase,
-	#category : #Expressions
+	#category : #'Expressions-Test'
 }
 
 { #category : #tests }

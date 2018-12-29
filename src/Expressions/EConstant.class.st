@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'value'
 	],
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #examples }

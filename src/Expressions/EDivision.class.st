@@ -10,7 +10,7 @@ Class {
 		'numerator',
 		'denominator'
 	],
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #accessing }

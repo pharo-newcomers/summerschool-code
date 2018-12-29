@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'id'
 	],
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #evaluate }

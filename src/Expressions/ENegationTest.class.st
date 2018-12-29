@@ -1,7 +1,7 @@
 Class {
 	#name : #ENegationTest,
 	#superclass : #TestCase,
-	#category : #Expressions
+	#category : #'Expressions-Test'
 }
 
 { #category : #tests }

@@ -1,7 +1,7 @@
 Class {
 	#name : #EAddition,
 	#superclass : #EBinaryExpression,
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #example }

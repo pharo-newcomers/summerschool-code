@@ -5,7 +5,7 @@ Class {
 		'left',
 		'right'
 	],
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #evaluation }

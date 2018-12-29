@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'expression'
 	],
-	#category : #Expressions
+	#category : #'Expressions-Model'
 }
 
 { #category : #'instance creation' }
