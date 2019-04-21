@@ -8,6 +8,11 @@ Class {
 	#category : #'Expressions-Model'
 }
 
+{ #category : #accessing }
+EBinaryExpression >> left [
+	^ left
+]
+
 { #category : #evaluation }
 EBinaryExpression >> left: anEConstant [
 	left := anEConstant
@@ -27,6 +32,11 @@ EBinaryExpression >> printOn: aStream [
 	aStream nextPutAll: self operatorString.
 	right printOn: aStream.
 	aStream nextPutAll: ' )'
+]
+
+{ #category : #accessing }
+EBinaryExpression >> right [
+	^ right
 ]
 
 { #category : #evaluation }

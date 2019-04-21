@@ -19,12 +19,6 @@ EConstant class >> value: anInteger [
 	^ self new value: anInteger 
 ]
 
-{ #category : #evaluation }
-EConstant >> evaluateWith: anObject [
-	
-	^ value
-]
-
 { #category : #printing }
 EConstant >> printOn: aStream [
 

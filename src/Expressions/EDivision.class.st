@@ -13,18 +13,28 @@ Class {
 	#category : #'Expressions-Model'
 }
 
+{ #category : #'instance creation' }
+EDivision class >> numerator: aNumeratorExpression denominator: aDenominatorExpression [
+
+	^ self new
+		numerator: aNumeratorExpression;
+		denominator: aDenominatorExpression;
+		yourself
+]
+
+{ #category : #accessing }
+EDivision >> denominator [
+	^ denominator
+]
+
 { #category : #accessing }
 EDivision >> denominator: anInteger [ 
 	denominator := anInteger
 ]
 
-{ #category : #evaluation }
-EDivision >> evaluateWith: anObject [
-	| denom |
-	denom := denominator evaluateWith: Dictionary new.
-	denom isZero
-		ifTrue: [ EZeroDenominator signal ].
-	^ (numerator evaluateWith: Dictionary new) / denom
+{ #category : #accessing }
+EDivision >> numerator [
+	^ numerator
 ]
 
 { #category : #accessing }

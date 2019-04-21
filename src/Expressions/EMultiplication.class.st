@@ -19,11 +19,6 @@ EMultiplication class >> left: anInteger right: anInteger2 [
 	^ self new left: anInteger ; right: anInteger2
 ]
 
-{ #category : #evaluation }
-EMultiplication >> evaluateWith: anObject [
-	^ (left evaluateWith: anObject) * (right evaluateWith: anObject)
-]
-
 { #category : #printing }
 EMultiplication >> operatorString [
 	^ ' * '

@@ -7,10 +7,17 @@ Class {
 	#category : #'Expressions-Model'
 }
 
-{ #category : #evaluate }
-EVariable >> evaluateWith: aBindingSet [
+{ #category : #accessing }
+EVariable class >> id: anId [
 
-	^ (aBindingSet at: id)
+	^ self new
+		id: anId;
+		yourself
+]
+
+{ #category : #accessing }
+EVariable >> id [
+	^ id
 ]
 
 { #category : #accessing }
