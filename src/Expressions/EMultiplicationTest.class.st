@@ -1,7 +1,7 @@
 Class {
 	#name : #EMultiplicationTest,
 	#superclass : #TestCase,
-	#category : #ExpressionsVisitor
+	#category : #'Expressions-Test'
 }
 
 { #category : #tests }
