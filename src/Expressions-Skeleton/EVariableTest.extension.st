@@ -11,3 +11,15 @@ EVariableTest >> testEvaluateXplusY [
 	self assert: (add evaluateWith: { #x -> 10 . #y -> 2 } asDictionary) equals: 12.
 	self assert: (add evaluateWith: { #x -> 10 . #y -> 12 } asDictionary) equals: 22
 ]
+
+{ #category : #'*Expressions-Skeleton' }
+EVariableTest >> testValueOfx [
+
+	self assert: ((EVariable new id: #x) evaluateWith: {#x -> 10} asDictionary) equals: 10. 
+]
+
+{ #category : #'*Expressions-Skeleton' }
+EVariableTest >> testValueOfxInNegation [
+
+	self assert: ((EVariable new id: #x) negated evaluateWith: {#x -> 10} asDictionary) equals: -10. 
+]
