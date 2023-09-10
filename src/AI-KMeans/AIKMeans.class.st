@@ -130,7 +130,6 @@ AIKMeans >> initialize [
 	performedIterations := 0.
 
 	rand := Random new.
-	euclideanDistance := AIEuclideanDistance new.
 	maxIterations := self class defaultMaxIterations.
 	timesToRun := self class defaultNumberOfTimesItIsRun
 ]
